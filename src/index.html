@@ -1,0 +1,47 @@
+<html ng-app="houseparty">
+  <head>
+    <title>House Party Scouter</title>
+
+    <script src="//use.typekit.net/jcq0bnk.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- endbuild -->
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="navbar">
+        <p>House Party Scouter</p>
+      </div>
+
+      <div class="intro">
+        <h1>House Party 5v5 Scouter <sup>BETA</sup></h1>
+      </div>
+
+      <div ui-view class="content"></div>
+    </div>
+  </body>
+
+  <!-- build:js scripts/vendor.js -->
+  <script src="vendor/lodash.js"></script>
+  <script src="../node_modules/angular/angular.js"></script>
+  <script src="../node_modules/angular-animate/angular-animate.js"></script>
+  <script src="../node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="../node_modules/angularfire/dist/angularfire.js"></script>
+  <!-- endbuild -->
+
+  <!-- build:js scripts/main.js -->
+  <script src="app/houseparty.js"></script>
+  <script src="app/common/common.js"></script>
+  <script src="app/common/models/player-model.js"></script>
+  <script src="app/main/main-controller.js"></script>
+  <script src="app/player/player-controller.js"></script>
+  <script src="app/player/game/game-controller.js"></script>
+  <script src="app/champion/champion-controller.js"></script>
+  <!-- endbuild -->
+</html>

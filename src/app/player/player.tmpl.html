@@ -1,0 +1,9 @@
+<div class="player">
+  <h1>{{ ctrl.name }}</h1>
+
+  <ul class="player__match-history">
+    <li ng-repeat="champion in ctrl.champions track by $index">
+      {{ champion }}
+    </li>
+  </ul>
+</div>
