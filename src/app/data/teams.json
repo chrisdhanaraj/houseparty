@@ -1,0 +1,49 @@
+[
+  {
+    "name": "ACME",
+    "players": [
+      {
+	"name": "Malkethos",
+	"role": "Top",
+	"bench": false,
+	"id": 19538337
+      },
+      {
+	"name": "Czark",
+	"role": "Jungle",
+	"bench": false,
+	"id": 38585037
+      },
+      {
+	"name": "Phat Syrogity",
+	"role": "Mid",
+	"bench": false,
+	"id": 37009645
+      },
+      {
+	"name": "Mobghost",
+	"role": "Support",
+	"bench": false,
+	"id": 20886507
+      },
+      {
+	"name": "Jonthegreatest",
+	"role": "AD Carry",
+	"bench": false,
+	"id": 21381367
+      },
+      {
+	"name": "Jeret",
+	"role": "Jungle",
+	"bench": true,
+	"id": 20226438
+      },
+      {
+	"name": "bigbo0ty",
+	"role": "Support",
+	"bench": true,
+	"id": 47027316
+      }
+    ]
+  }
+]
