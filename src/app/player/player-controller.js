@@ -3,25 +3,34 @@ angular.module('houseparty')
     var ctrl = this;
     ctrl.name = $stateParams.name;
 
-    ctrl.id = PlayerModel.getPlayerId(ctrl.name);
-
-    ctrl.getHistory = function() {
-      PlayerModel.getMatchHistory(ctrl.id)
-        .then(PlayerModel.getChampionData)
-        .then(function(result) {
-          ctrl.champions = result;
-
-	  ctrl.createChampionChart();
-	});
+    var getPlayerId = function(name) {
+      return PlayerModel.getPlayerId(name).then(function(id) {
+	ctrl.id = id;
+	return id;
+      });
     };
 
-    ctrl.createChampionChart = function() {
-      ctrl.championTendency = {};
-      for (var i = 0; i < ctrl.champions.length; i++) {
-	var current = ctrl.champions[i];
-	ctrl.championTendency[current] = ctrl.championTendency[current] ? ctrl.championTendency[current] + 1 : 1;
-      }
+    var getRecentMatchHistory = function(playerId) {
+      return PlayerModel.getMatchHistory(playerId).then(function(history) {
+	ctrl.history = history.matches;
+	return history.matches;
+      })
     };
 
-    ctrl.getHistory();
+
+    getPlayerId(ctrl.name)
+      .then(getRecentMatchHistory);
+
+    //var getRecentChampTendences = function(matches) {
+    //
+    //};
+
+    //ctrl.createChampionChart = function() {
+    //  ctrl.championTendency = {};
+    //  for (var i = 0; i < ctrl.champions.length; i++) {
+    //    var current = ctrl.champions[i];
+    //    ctrl.championTendency[current] = ctrl.championTendency[current] ? ctrl.championTendency[current] + 1 : 1;
+    //  }
+    //};
+
   });
