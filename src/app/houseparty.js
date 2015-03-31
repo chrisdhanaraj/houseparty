@@ -28,5 +28,11 @@ angular.module('houseparty', [
         templateUrl: 'app/champion/champion.tmpl.html',
         controller: 'ChampionCtrl',
         controllerAs: 'ctrl',
+      })
+      .state('game', {
+	url:'/game/:id',
+	templateUrl: 'app/game/game.tmpl.html',
+	controller: 'GameCtrl',
+	controllerAs: 'game'
       });
   });
