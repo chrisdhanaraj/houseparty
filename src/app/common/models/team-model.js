@@ -1,5 +1,5 @@
 angular.module('houseparty.common')
-  .service('TeamModel', function ($http, $q) {
+  .service('TeamModel', function ($http, $q, config) {
     var model = this,
         teams;
 
@@ -8,11 +8,11 @@ angular.module('houseparty.common')
     };
 
     model.getPlayers = function() {
-      return $http.get('https://house-party-scouter.firebaseio.com/players.json').then(extract);
+      return $http.get(config.firebase + '/players.json').then(extract);
     };
 
     model.getTeamData = function() {
-      return $http.get('https://house-party-scouter.firebaseio.com/teams.json').then(extract);
+      return $http.get(config.firebase + '/teams.json').then(extract);
     };
 
   });
