@@ -3,6 +3,8 @@ angular.module('houseparty', [
   'ngAnimate',
   'firebase',
   'houseparty.common',
+  'player',
+  'main'
 ])
   .constant('config', {
     'firebase' : 'https://house-party-scouter.firebaseio.com',

@@ -1,4 +1,4 @@
-angular.module('houseparty')
+angular.module('main.team', [])
   .directive('team', function(TeamModel){
     var teamName;
 

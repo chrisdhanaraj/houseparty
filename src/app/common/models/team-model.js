@@ -1,4 +1,4 @@
-angular.module('houseparty.common')
+angular.module('houseparty.common.team', [])
   .service('TeamModel', function ($http, $q, config) {
     var model = this,
         teams;
@@ -14,5 +14,4 @@ angular.module('houseparty.common')
     model.getTeamData = function() {
       return $http.get(config.firebase + '/teams.json').then(extract);
     };
-
   });

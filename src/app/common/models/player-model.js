@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('houseparty.common')
+angular.module('houseparty.common.player', [])
   .service('PlayerModel', function ($http, $q, config) {
     var model = this;
 

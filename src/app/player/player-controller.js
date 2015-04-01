@@ -1,4 +1,4 @@
-angular.module('houseparty')
+angular.module('player', ['houseparty.common.player'])
   .controller('PlayerCtrl', function($stateParams, PlayerModel) {
     var ctrl = this;
     ctrl.name = $stateParams.name;
