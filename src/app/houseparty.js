@@ -5,6 +5,7 @@ angular.module('houseparty', [
   'houseparty.common',
 ])
   .constant('config', {
+    'firebase' : 'https://house-party-scouter.firebaseio.com',
     'api': '51bc4ec8-a0a6-427e-8016-d7359a2231b9'
   })
   .config(function ($stateProvider, $urlRouterProvider) {
@@ -30,9 +31,9 @@ angular.module('houseparty', [
         controllerAs: 'ctrl',
       })
       .state('game', {
-	url:'/game/:id',
-	templateUrl: 'app/game/game.tmpl.html',
-	controller: 'GameCtrl',
-	controllerAs: 'game'
+        url:'/game/:id',
+        templateUrl: 'app/game/game.tmpl.html',
+        controller: 'GameCtrl',
+        controllerAs: 'game'
       });
   });

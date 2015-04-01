@@ -1,11 +1,15 @@
 <p>Beta test, only tested on Chrome</p>
 
-<div ng-repeat="(teamId, team) in main.teams">
-  <div class="well team col-xs-3">
-    <h2>{{ team.name }}</h2>
-    <div class="team__player" ng-repeat="player in team.players">
-      <p ui-sref="player({ 'name': player.name })"><strong>{{ player.name }}</strong> | {{player.role}} <span class="team__bench" ng-if="player.bench">BENCH</span></p>
-    </div>
-  </div>
+<!--<div ng-repeat="(teamId, team) in main.teams">-->
+  <!--<div class="well team col-xs-3">-->
+    <!--<h2>{{ team.name }}</h2>-->
+    <!--<div class="team__player" ng-repeat="player in team.players">-->
+      <!--<p ui-sref="player({ 'name': player.name })"><strong>{{ player.name }}</strong> | {{player.role}} <span class="team__bench" ng-if="player.bench">BENCH</span></p>-->
+    <!--</div>-->
+  <!--</div>-->
 
+<!--</div>-->
+
+<div ng-repeat="team in main.teams">
+  <team teamName="{{team.name}}"></team>
 </div>

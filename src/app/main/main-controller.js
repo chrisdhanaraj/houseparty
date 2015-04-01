@@ -1,5 +1,14 @@
 angular.module('houseparty')
-  .controller('MainCtrl', function(PlayerModel){
+  .controller('MainCtrl', function(TeamModel){
     var main = this;
-    main.teams = PlayerModel.teams;
+
+    var getTeams = function() {
+      return TeamModel.getTeamData().then( function(result) {
+        main.teams = result;
+        return result; // in case we need to chain sometime
+      })
+    };
+
+    getTeams();
+
   });
