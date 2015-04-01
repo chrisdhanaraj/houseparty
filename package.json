@@ -16,6 +16,7 @@
     "lodash": "^3.6.0"
   },
   "devDependencies": {
+    "angular-hint": "0.0.0",
     "autoprefixer-core": "^5.1.7",
     "browser-sync": "^2.2.1",
     "bs-html-injector": "^1.5.2",
