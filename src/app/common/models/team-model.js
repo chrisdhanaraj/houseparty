@@ -8,11 +8,11 @@ angular.module('houseparty.common')
     };
 
     model.getPlayers = function() {
-      return $http.get('/app/data/players.json').then(extract);
+      return $http.get('https://house-party-scouter.firebaseio.com/players.json').then(extract);
     };
 
     model.getTeamData = function() {
-      return $http.get('/app/data/teams.json').then(extract);
+      return $http.get('https://house-party-scouter.firebaseio.com/teams.json').then(extract);
     };
 
   });
