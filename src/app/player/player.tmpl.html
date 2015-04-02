@@ -1,9 +1,29 @@
 <div class="player">
   <h1>{{ ctrl.name }}</h1>
+  <strong>{{ ctrl.role }}</strong>
 
-  <ul class="player__match-history">
-    <li ng-repeat="champion in ctrl.champions track by $index">
-      {{ champion }}
-    </li>
-  </ul>
+  <div class="row">
+    <div class="col-xs-12 col-sm-2">
+      <h2>Team: {{ ctrl.teamname }}</h2>
+      <ul>
+        <li ng-repeat="player in ctrl.players" ng-class="{ 'active' : player === ctrl.name}">
+          {{ player }}
+        </li>
+      </ul>
+    </div>
+    <div class="col-xs-12 col-sm-10">
+      <div class="match-history">
+        <h2>Last Ten Games</h2>
+        <ul>
+          <li ng-repeat="champion in ctrl.champions track by $index">
+            {{ champion }}
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+
 </div>
