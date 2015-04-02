@@ -1,12 +1,12 @@
-angular.module('player', ['houseparty.common.player'])
+angular.module('player', ['houseparty.common.player', 'houseparty.common.team'])
   .controller('PlayerCtrl', function($stateParams, PlayerModel) {
     var ctrl = this;
     ctrl.name = $stateParams.name;
 
     var getPlayerId = function(name) {
       return PlayerModel.getPlayerId(name).then(function(id) {
-	ctrl.id = id;
-	return id;
+        ctrl.id = id;
+        return id;
       });
     };
 
