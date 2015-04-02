@@ -1,0 +1,418 @@
+{
+  "jettstone": {
+    "id": 32379413,
+    "name": "Jett Stone",
+    "team" : "Shadow Walkers",
+    "profileIconId": 783,
+    "revisionDate": 1427912485000,
+    "summonerLevel": 30
+  },
+  "wumpie": {
+    "id": 44686013,
+    "name": "WumpIe",
+    "team": "Top Lane Buffet",
+    "profileIconId": 751,
+    "revisionDate": 1427894687000,
+    "summonerLevel": 30
+  },
+  "crsmycroft": {
+    "id": 32014682,
+    "name": "Crs Mycroft",
+    "team" : "Shadow Walkers",
+    "profileIconId": 785,
+    "revisionDate": 1427922969000,
+    "summonerLevel": 30
+  },
+  "liquidswordz": {
+    "id": 19748459,
+    "name": "Liquid SwordZ",
+    "team": "Industrious Gaming",
+    "profileIconId": 753,
+    "revisionDate": 1427916736000,
+    "summonerLevel": 30
+  },
+  "wilsonjones": {
+    "id": 26088182,
+    "name": "WilsonJones",
+    "team": "Thunder Ducks",
+    "profileIconId": 627,
+    "revisionDate": 1427867970000,
+    "summonerLevel": 30
+  },
+  "antonym": {
+    "id": 21379262,
+    "name": "Antonym",
+    "team": "Trismegetsu",
+    "profileIconId": 685,
+    "revisionDate": 1427866778000,
+    "summonerLevel": 30
+  },
+  "kamaflare": {
+    "id": 20234400,
+    "name": "KamaFlare",
+    "team": "Top Lane Buffet",
+    "profileIconId": 786,
+    "revisionDate": 1427915226000,
+    "summonerLevel": 30
+  },
+  "sankanyo": {
+    "id": 19107787,
+    "name": "SanKanYo",
+    "team": "Trismegetsu",
+    "profileIconId": 7,
+    "revisionDate": 1427923636000,
+    "summonerLevel": 30
+  },
+  "dmeeble": {
+    "id": 381159,
+    "name": "DMeeble",
+    "team": "Thunder Ducks",
+    "profileIconId": 588,
+    "revisionDate": 1427921360000,
+    "summonerLevel": 30
+  },
+  "lunaz": {
+    "id": 21873489,
+    "name": "LunaZ",
+    "team": "Top Lane Buffet",
+    "profileIconId": 22,
+    "revisionDate": 1427919113000,
+    "summonerLevel": 30
+  },
+  "高捷銘": {
+    "id": 40930802,
+    "name": "高捷銘",
+    "team": "Hands of God",
+    "profileIconId": 0,
+    "revisionDate": 1427922071000,
+    "summonerLevel": 30
+  },
+  "6jerrysandusky69": {
+    "id": 28679732,
+    "name": "6JerrySandusky69",
+    "team": "Hands of God",
+    "profileIconId": 7,
+    "revisionDate": 1427904220000,
+    "summonerLevel": 30
+  },
+  "hellbizzle": {
+    "id": 19544901,
+    "name": "Hellbizzle",
+    "team": "Hands of God",
+    "profileIconId": 775,
+    "revisionDate": 1427854523000,
+    "summonerLevel": 30
+  },
+  "strathagos": {
+    "id": 29518651,
+    "name": "Strathagos",
+    "team": "Top Lane Buffet",
+    "profileIconId": 513,
+    "revisionDate": 1427917473000,
+    "summonerLevel": 30
+  },
+  "hoesdontpreciate": {
+    "id": 23957690,
+    "name": "Hoesdontpreciate",
+    "team": "Industrious Gaming",
+    "profileIconId": 577,
+    "revisionDate": 1427861144000,
+    "summonerLevel": 30
+  },
+  "megatotodile": {
+    "id": 46117548,
+    "name": "Mega Totodile",
+    "team" : "Shadow Walkers",
+    "profileIconId": 786,
+    "revisionDate": 1427923937000,
+    "summonerLevel": 30
+  },
+  "chibode": {
+    "id": 24856630,
+    "name": "Chibode",
+    "team" : "Shadow Walkers",
+    "profileIconId": 786,
+    "revisionDate": 1427899810000,
+    "summonerLevel": 30
+  },
+  "qjq": {
+    "id": 42140134,
+    "name": "QjQ",
+    "team": "Trismegetsu",
+    "profileIconId": 573,
+    "revisionDate": 1427918376000,
+    "summonerLevel": 30
+  },
+  "congo": {
+    "id": 24454459,
+    "name": "Congo",
+    "team": "Thunder Ducks",
+    "profileIconId": 18,
+    "revisionDate": 1427861144000,
+    "summonerLevel": 30
+  },
+  "m1lksh4ke": {
+    "id": 21336205,
+    "name": "m1lk sh4ke",
+    "team": "Top Lane Buffet",
+    "profileIconId": 539,
+    "revisionDate": 1427684322000,
+    "summonerLevel": 30
+  },
+  "odinssun": {
+    "id": 38043999,
+    "name": "Odins Sun",
+    "team": "Trismegetsu",
+    "profileIconId": 22,
+    "revisionDate": 1427876393000,
+    "summonerLevel": 30
+  },
+  "mike71142": {
+    "id": 28361959,
+    "name": "MIke71142",
+    "team": "Industrious Gaming",
+    "profileIconId": 28,
+    "revisionDate": 1427861144000,
+    "summonerLevel": 30
+  },
+  "omero2582": {
+    "id": 41744176,
+    "name": "omero2582",
+    "team": "Trismegetsu",
+    "profileIconId": 657,
+    "revisionDate": 1427691757000,
+    "summonerLevel": 30
+  },
+  "sinfulbaggins": {
+    "id": 49202694,
+    "name": "SinfulBaggins",
+    "team": "Trismegetsu",
+    "profileIconId": 779,
+    "revisionDate": 1427591064000,
+    "summonerLevel": 30
+  },
+  "rigelq": {
+    "id": 26045554,
+    "name": "rigelq",
+    "team": "Top Lane Buffet",
+    "profileIconId": 786,
+    "revisionDate": 1427913265000,
+    "summonerLevel": 30
+  },
+  "lfleash": {
+    "id": 30612924,
+    "name": "LF Leash",
+    "team": "Thunder Ducks",
+    "profileIconId": 786,
+    "revisionDate": 1427924278000,
+    "summonerLevel": 30
+  },
+  "yakkuru": {
+    "id": 20668112,
+    "name": "Yakkuru",
+    "team": "Industrious Gaming",
+    "profileIconId": 654,
+    "revisionDate": 1427790304000,
+    "summonerLevel": 30
+  },
+  "simrim": {
+    "id": 30203727,
+    "name": "simrim",
+    "team": "Industrious Gaming",
+    "profileIconId": 558,
+    "revisionDate": 1427854094000,
+    "summonerLevel": 30
+  },
+  "enemy271": {
+    "id": 21697883,
+    "name": "Enemy271",
+    "team": "Trismegetsu",
+    "profileIconId": 786,
+    "revisionDate": 1427923903000,
+    "summonerLevel": 30
+  },
+  "rgdev": {
+    "id": 23727812,
+    "name": "RG Dev",
+    "team": "Thunder Ducks",
+    "profileIconId": 786,
+    "revisionDate": 1427915226000,
+    "summonerLevel": 30
+  },
+  "jerrintz": {
+    "id": 14236,
+    "name": "JerrinTZ",
+    "team": "Top Lane Buffet",
+    "profileIconId": 575,
+    "revisionDate": 1427919133000,
+    "summonerLevel": 30
+  },
+  "ahrilover": {
+    "id": 29217013,
+    "name": "Ahri Lover",
+    "team": "Hands of God",
+    "profileIconId": 508,
+    "revisionDate": 1427920859000,
+    "summonerLevel": 30
+  },
+  "k1ll1ngforce": {
+    "id": 35394875,
+    "name": "K1LL1NG Force",
+    "team" : "Shadow Walkers",
+    "profileIconId": 752,
+    "revisionDate": 1427866450000,
+    "summonerLevel": 30
+  },
+  "gingerfide": {
+    "id": 32704494,
+    "name": "GingerFide",
+    "team": "Hands of God",
+    "profileIconId": 759,
+    "revisionDate": 1427674099000,
+    "summonerLevel": 30
+  },
+  "pingwins": {
+    "id": 31973984,
+    "name": "Ping Wins",
+    "team": "Hands of God",
+    "profileIconId": 785,
+    "revisionDate": 1427923167000,
+    "summonerLevel": 30
+  },
+  "jackdroke": {
+    "id": 34168910,
+    "name": "Jack Droke",
+    "team": "Thunder Ducks",
+    "profileIconId": 543,
+    "revisionDate": 1427867121000,
+    "summonerLevel": 30
+  },
+  "splashproo": {
+    "id": 63674843,
+    "name": "Splashproo",
+    "team": "Industrious Gaming",
+    "profileIconId": 756,
+    "revisionDate": 1427916736000,
+    "summonerLevel": 30
+  },
+  "czark": {
+    "id": 38585037,
+    "name": "Czark",
+    "name": "ACME Corporation",
+    "profileIconId": 784,
+    "revisionDate": 1427921739000,
+    "summonerLevel": 30
+  },
+  "mobghost": {
+    "id": 20886507,
+    "name": "Mobghost",
+    "team": "ACME Corporation",
+    "profileIconId": 753,
+    "revisionDate": 1427834703000,
+    "summonerLevel": 30
+  },
+  "malkethos": {
+    "id": 19538337,
+    "name": "Malkethos",
+    "team": "ACME Corporation",
+    "profileIconId": 558,
+    "revisionDate": 1427857254000,
+    "summonerLevel": 30
+  },
+  "jeret": {
+    "id": 20226438,
+    "name": "Jeret",
+    "team" : "ACME Corporation",
+    "profileIconId": 22,
+    "revisionDate": 1427868409000,
+    "summonerLevel": 30
+  },
+  "hoihoithepanda": {
+    "id": 29236065,
+    "name": "HoiHoiThePanda",
+    "team": "Breaking Bard",
+    "profileIconId": 785,
+    "revisionDate": 1427915288000,
+    "summonerLevel": 30
+  },
+  "phatsyrogity": {
+    "id": 37009645,
+    "name": "Phat Syrogity",
+    "team" : "ACME Corporation",
+    "profileIconId": 752,
+    "revisionDate": 1427776341000,
+    "summonerLevel": 30
+  },
+  "bucknfuffalo": {
+    "id": 21212957,
+    "name": "buckNfuffalo",
+    "team" : "Shadow Walkers",
+    "profileIconId": 627,
+    "revisionDate": 1427858256000,
+    "summonerLevel": 30
+  },
+  "meshari": {
+    "id": 58549108,
+    "name": "Meshari",
+    "team": "Breaking Bard",
+    "profileIconId": 783,
+    "revisionDate": 1427915226000,
+    "summonerLevel": 30
+  },
+  "kurosekai": {
+    "id": 20746645,
+    "name": "Kuro Sekai",
+    "team": "Breaking Bard",
+    "profileIconId": 758,
+    "revisionDate": 1427905841000,
+    "summonerLevel": 30
+  },
+  "bigbo0ty": {
+    "id": 47027316,
+    "name": "biGBo0Ty",
+    "team" : "ACME Corporation",
+    "profileIconId": 786,
+    "revisionDate": 1427922006000,
+    "summonerLevel": 30
+  },
+  "greatdikinthesky": {
+    "id": 20172548,
+    "name": "GreatDikInTheSky",
+    "team": "Breaking Bard",
+    "profileIconId": 550,
+    "revisionDate": 1427857115000,
+    "summonerLevel": 30
+  },
+  "jonthegreatest": {
+    "id": 21381367,
+    "name": "JontheGreatest",
+    "team" : "ACME Corporation",
+    "profileIconId": 10,
+    "revisionDate": 1427921739000,
+    "summonerLevel": 30
+  },
+  "flyknightx3": {
+    "id": 30693514,
+    "name": "FlyKnightx3",
+    "team": "Breaking Bard",
+    "profileIconId": 654,
+    "revisionDate": 1427874490000,
+    "summonerLevel": 30
+  },
+  "trollbotv2": {
+    "id": 25946461,
+    "name": "TrollBotV2",
+    "team" : "Shadow Walkers",
+    "profileIconId": 691,
+    "revisionDate": 1427840239000,
+    "summonerLevel": 30
+  },
+  "coolman7546": {
+    "id": 37240222,
+    "name": "coolman7546",
+    "team": "Breaking Bard",
+    "profileIconId": 549,
+    "revisionDate": 1427910320000,
+    "summonerLevel": 30
+  }
+}
