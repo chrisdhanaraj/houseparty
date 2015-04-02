@@ -14,11 +14,11 @@ angular.module('main.team', [])
       };
 
       var useData = function(players) {
-        ctrl.players = _.map(players, function(value) {
+        ctrl.players = _.compact(_.map(players, function(value) {
           if(value.team === ctrl.teamName) {
             return value.name;
           };
-        });
+        }));
       };
 
       getPlayers(teamName)
