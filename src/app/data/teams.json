@@ -1,0 +1,34 @@
+{
+  "Hands of God" : {
+    "name" : "Hands of God",
+    "short" : "HoG"
+  },
+  "ACME Corporation": {
+    "name": "ACME Corporation",
+    "short": "ACME"
+  },
+  "Industrious Gaming": {
+    "name": "Industrious Gaming",
+    "short": "IG"
+  },
+  "Thunder Ducks": {
+    "name": "Thunder Ducks",
+    "short": "TD"
+  },
+  "Top Lane Buffet": {
+    "name": "Top Lane Buffet",
+    "short": "TLB"
+  },
+  "Trismegetsu": {
+    "name": "Trismegetsu",
+    "short": "TRI"
+  },
+  "Shadow Walkers": {
+    "name": "Shadow Walkers",
+    "short": "SW"
+  },
+  "Breaking Bard": {
+    "name": "Breaking Bard",
+    "short": "BB"
+  }
+}
