@@ -9,6 +9,13 @@ angular.module('main', ['houseparty.common', 'main.team'])
       })
     };
 
+    main.remainder = function(number, divisor) {
+      if ((number + 1) % divisor === 0) {
+        return true;
+      }
+      return false;
+    };
+
     getTeams();
 
   });

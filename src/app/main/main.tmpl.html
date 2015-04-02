@@ -1,3 +1,6 @@
-<div ng-repeat="team in main.teams">
+<div class="col-xs-6 col-sm-3" ng-repeat-start="team in main.teams track by $index">
   <team teamName="{{team.name}}"></team>
 </div>
+
+<div ng-class="{ 'clearfix visible-xs-block' : main.remainder($index, 2)}"></div>
+<div ng-class="{ 'clearfix visible-sm-block visible-md-block visible-lg-block' : main.remainder($index, 4)}" ng-repeat-end></div>
