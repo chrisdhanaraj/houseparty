@@ -30,9 +30,11 @@
   <!-- build:js scripts/vendor.js -->
   <script src="vendor/lodash.js"></script>
   <script src="../node_modules/angular/angular.js"></script>
+  <script src="https://cdn.firebase.com/js/client/2.2.2/firebase.js"></script>
   <script src="../node_modules/angular-animate/angular-animate.js"></script>
   <script src="../node_modules/angular-ui-router/release/angular-ui-router.js"></script>
   <script src="../node_modules/angularfire/dist/angularfire.js"></script>
+  <script src="../node_modules/angular-storage/dist/angular-storage.js"></script>
   <!-- endbuild -->
 
   <!-- build:js scripts/main.js -->
@@ -40,9 +42,16 @@
   <script src="app/common/common.js"></script>
   <script src="app/common/models/player-model.js"></script>
   <script src="app/common/models/team-model.js"></script>
+  <script src="app/common/services/riot.js"></script>
   <script src="app/main/main-controller.js"></script>
   <script src="app/main/main-directive.js"></script>
   <script src="app/player/player-controller.js"></script>
+  <script src="app/player/championtendency/champtendency-ctrl.js"></script>
+  <script src="app/player/killstats/killstats-ctrl.js"></script>
+  <script src="app/player/rolediversity/rolediversity-ctrl.js"></script>
+  <script src="app/player/stats10/stats10-ctrl.js"></script>
+  <script src="app/player/visiondata/visiondata-ctrl.js"></script>
+  <script src="app/player/winloss/winloss-ctrl.js"></script>
   <script src="app/game/game-controller.js"></script>
   <script src="app/champion/champion-controller.js"></script>
   <!-- endbuild -->

@@ -1,4 +1,13 @@
-angular.module('player', ['houseparty.common.player', 'houseparty.common.team'])
+angular.module('player', [
+  'houseparty.common.player',
+  'houseparty.common.team',
+  'player.championtendency',
+  'player.killstats',
+  'player.rolediversity',
+  'player.stats10',
+  'player.visiondata',
+  'player.winloss'
+])
   .controller('PlayerCtrl', function($stateParams, PlayerModel) {
     var ctrl = this;
     ctrl.name = $stateParams.name;
