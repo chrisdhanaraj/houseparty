@@ -1,25 +1,15 @@
 'use strict';
 
 angular.module('houseparty.common.player', [])
-  .service('PlayerModel', function ($http, $q, config, riot) {
+  .service('PlayerModel', function ($http, $q, config, Riot) {
     var model = this;
-
 
     function extract(result) {
       return result.data;
     }
-
-    function extractRiot(result) {
-      return result.data.data;
-    }
-
-    function getMatchHistoryUrl(playerId) {
-      return 'https://na.api.pvp.net/api/lol/na/v2.2/matchhistory/' + playerId + '?rankedQueues=RANKED_SOLO_5x5,RANKED_TEAM_5x5&api_key=' + config.api;
-    }
-
     model.getPlayerId = function(playerName) {
       var deferred = $q.defer();
-      $http.get('/app/data/teams.json').then(function(teams){
+      $http.get(config.firebase + '/teams.json').then(function(teams){
         _.forEach(teams.data, function(team) {
           _.forEach(team.players, function(player) {
             if (player.name === playerName) {
