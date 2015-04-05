@@ -1,44 +1,29 @@
 angular.module('houseparty.common.champion', [])
-  .service('ChampionModel', function($http, $q) {
-    var champion = this,
-        championData;
+  .service('ChampionModel', function($http, config) {
+    var champion = this;
 
-    var extract = function(result) {
-      return result.data;
-    };
+    champion.convertIdsToName = function(idArray) {
+      return $http.get(config.firebase + '/champions.json')
+        .then(function(champions) {
+          var champArrayName = [];
 
-    var cacheChampionData = function(result){
-      championData = extract(result);
-      return championData;
-    };
+          _.forEach(idArray, function(id) {
+            champArrayName.push(_.result(_.find(champions.data, function(champ) {
+              return champ.id === id;
+            }), 'name'));
+          });
 
-    var getChampionStaticData = function() {
-      return (championData) ? $q.when(championData) : $http.get(config.firebase + championData).then(cacheChampionData);
+          return champArrayName;
+        });
+
     };
 
     champion.convertIdToChampionName = function(id) {
-      // better than using $http.cache? hmm
-      // maybe for static data
-
-      var deferred = $q.defer();
-
-      function findChampionName() {
-        return _.result(_.find(championData, function(champ) {
-          return champ.id === id;
-        }), 'name');
-      }
-
-      if (championData) {
-        deferred.resolve(findChampionName());
-      } else {
-        getChampionStaticData()
-          .then(function (){
-            deferred.resolve(findChampionName());
-          });
-      }
-
-      return deferred.promise;
+      return $http.get(config.firebase + '/champions.json')
+        .then(function(champions) {
+          return _.result(_.find(champions.data, function(champ) {
+            return champ.id === id;
+          }), 'name');
+        });
     };
-
-
   });
