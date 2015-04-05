@@ -8,22 +8,16 @@ angular.module('houseparty.common.player', [])
       return result.data;
     }
     model.getPlayerId = function(playerName) {
-      var deferred = $q.defer();
-      $http.get(config.firebase + '/teams.json').then(function(teams){
-        _.forEach(teams.data, function(team) {
-          _.forEach(team.players, function(player) {
-            if (player.name === playerName) {
-              deferred.resolve(player.id);
-            }
-          });
-        });
+      return $http.get(config.firebase + '/players.json').then(function(players){
+        //deferred.resolve(player.id);
+        var id = _.result(_.find(players.data, function(player) {
+          if (player.name === playerName) {
+            return player.id;
+          }
+        }), 'id');
+
+        return id;
       });
-
-      return deferred.promise;
-    };
-
-    model.getMatchHistory = function (playerId) {
-      return $http.get(getMatchHistoryUrl(playerId)).then(extract);
     };
 
     model.getChampData = function() {
