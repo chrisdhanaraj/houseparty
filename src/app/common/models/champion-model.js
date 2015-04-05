@@ -23,9 +23,9 @@ angular.module('houseparty.common.champion', [])
       var deferred = $q.defer();
 
       function findChampionName() {
-        return _.find(championData, function(champ) {
+        return _.result(_.find(championData, function(champ) {
           return champ.id === id;
-        }, 'name');
+        }), 'name');
       }
 
       if (championData) {
