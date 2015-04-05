@@ -1,0 +1,50 @@
+.player-chart {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  &__data {
+    flex: 1;
+    margin-bottom: 2em;
+    min-height: 400px;
+    min-width: 400px;
+    order: 1;
+
+    canvas {
+      display: block;
+    }
+  }
+
+  &__options {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    min-width: 400px;
+    margin: auto;
+    flex: 2;
+    order: 2;
+  }
+}
+
+
+.data-option {
+  display: flex;
+  width: 150px;
+  height: 150px;
+
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 0 10px;
+
+
+  border: 1px solid #fff;
+
+  p {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+    flex-direction: center;
+    justify-content: center;
+  }
+}
