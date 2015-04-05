@@ -3,18 +3,18 @@
   "version": "0.0.0",
   "homepage": "https://github.com/chrisdhanaraj/houseparty",
   "authors": [
-    "Chris Dhanaraj <adhanaraj@gmail.com>"
+    "chris.dhanaraj <adhanaraj@gmail.com>"
   ],
   "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
+    "src/assets/components/",
     "test",
     "tests"
   ],
   "dependencies": {
-    "d3": "~3.5.5",
-    "d3-tip": "~0.6.6"
+    "Chart.js": "~1.0.2"
   }
 }
