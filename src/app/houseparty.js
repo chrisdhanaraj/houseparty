@@ -28,6 +28,18 @@ angular.module('houseparty', [
         templateUrl: 'app/player/player.tmpl.html',
         controller: 'PlayerCtrl',
         controllerAs: 'ctrl',
+        resolve: {
+          getId : function($stateParams, PlayerModel) {
+            return PlayerModel.getPlayerId($stateParams.name);
+          },
+          solostats: function(Riot, getId) {
+            return Riot.getLeague(getId);
+          },
+          history: function(Riot, getId) {
+            return Riot.getMatchHistory(getId, 10);
+          }
+        }
+
       })
       .state('player.championtendency', {
         url:'/championtendency',
