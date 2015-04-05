@@ -6,40 +6,35 @@ angular.module('player', [
   'player.rolediversity',
   'player.stats10',
   'player.visiondata',
-  'player.winloss'
+  'player.winloss',
+  'player.service',
+  'player.d3'
 ])
-  .controller('PlayerCtrl', function($stateParams, PlayerModel) {
+  .controller('PlayerCtrl', function($stateParams, getId, solostats, history) {
     var ctrl = this;
+    var id = getId;
     ctrl.name = $stateParams.name;
-
-    var getPlayerId = function(name) {
-      return PlayerModel.getPlayerId(name).then(function(id) {
-        ctrl.id = id;
-        return id;
-      });
-    };
-
-    var getRecentMatchHistory = function(playerId) {
-      return PlayerModel.getMatchHistory(playerId).then(function(history) {
-	ctrl.history = history.matches;
-	return history.matches;
-      })
-    };
+    ctrl.solostat = solostats[id][0]['entries'][0];
+    ctrl.history = history;
 
 
-    getPlayerId(ctrl.name)
-      .then(getRecentMatchHistory);
-
-    //var getRecentChampTendences = function(matches) {
+    //PlayerModel.getPlayerId(ctrl.name)
+    //  .then(function(id) { // level 1
+    //    //ctrl.id = id;
     //
-    //};
+    //    Riot.getLeague(id)
+    //      .then(function(league) {
+    //        store.storeSoloStats(league[id][0]['entries'][0]);
+    //        console.log('hi from main');
+    //        //ctrl.solostats = league[id][0]['entries'][0];
+    //      });
+    //
+    //    Riot.getMatchHistory(id, 10)
+    //      .then(function(history) { // level 2
+    //        store.storeHistory(history.matches);
+    //        ctrl.history = history.matches;
+    //      })
+    //  });
 
-    //ctrl.createChampionChart = function() {
-    //  ctrl.championTendency = {};
-    //  for (var i = 0; i < ctrl.champions.length; i++) {
-    //    var current = ctrl.champions[i];
-    //    ctrl.championTendency[current] = ctrl.championTendency[current] ? ctrl.championTendency[current] + 1 : 1;
-    //  }
-    //};
 
   });

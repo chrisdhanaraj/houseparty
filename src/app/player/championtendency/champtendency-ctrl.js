@@ -1,4 +1,4 @@
 angular.module('player.championtendency', [])
-  .controller('ChampionTendencyCtrl', function() {
-
+  .controller('ChampionTendencyCtrl', function(solostats) {
+    console.log(solostats);
   });
