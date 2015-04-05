@@ -35,17 +35,25 @@
   <script src="../node_modules/angular-ui-router/release/angular-ui-router.js"></script>
   <script src="../node_modules/angularfire/dist/angularfire.js"></script>
   <script src="../node_modules/angular-storage/dist/angular-storage.js"></script>
+  <script src="assets/components/Chart.js/chart.js"></script>
   <!-- endbuild -->
+
+  <script>
+//    Chart.defaults.global.responsive = true;
+  </script>
 
   <!-- build:js scripts/main.js -->
   <script src="app/houseparty.js"></script>
   <script src="app/common/common.js"></script>
   <script src="app/common/models/player-model.js"></script>
   <script src="app/common/models/team-model.js"></script>
+  <script src="app/common/models/champion-model.js"></script>
   <script src="app/common/services/riot.js"></script>
   <script src="app/main/main-controller.js"></script>
   <script src="app/main/main-directive.js"></script>
   <script src="app/player/player-controller.js"></script>
+  <script src="app/player/charts/d3-bar-directive.js"></script>
+  <script src="app/player/charts/pie-directive.js"></script>
   <script src="app/player/championtendency/champtendency-ctrl.js"></script>
   <script src="app/player/killstats/killstats-ctrl.js"></script>
   <script src="app/player/rolediversity/rolediversity-ctrl.js"></script>
