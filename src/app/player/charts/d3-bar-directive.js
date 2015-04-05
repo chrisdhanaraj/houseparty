@@ -1,23 +1,28 @@
 angular.module('player.d3', [])
   .directive('bar', function(){
+
     var linker = function(scope, element, attrs) {
-      // var data = attrs.data.split(',').map(Number);
-      var data = [12, 16];
+      var data = scope.data;
 
-      var chart = d3.select(element[0]);
+      var ctx = element.find('canvas')[0].getContext("2d");
+      var bar = new Chart(ctx).Bar(data);
 
-      chart.append("div").attr("class", "chart")
-        .selectAll('div')
-        .data(data).enter().append("div")
-        .transition().ease("elastic")
-        .style("height", function(d) { return d * 15; })
-        .text(function(d) { return d; });
+      bar.datasets[0].bars[0].fillColor = "green";
+      bar.datasets[0].bars[0].highlightFill = "green";
+      bar.datasets[0].bars[0]._saved.fillColor = "green";
+      bar.datasets[0].bars[0]._saved.highlightFill = "green";
+
+      bar.datasets[0].bars[1].fillColor = "#7D0A0A";
+      bar.datasets[0].bars[1].highlightFill = "#7D0A0A";
+      bar.datasets[0].bars[1]._saved.fillColor = "#7D0A0A";
+      bar.datasets[0].bars[1]._saved.highlightFill = "#7D0A0A";
+
     };
 
     return {
       link: linker,
       scope: {
-        data:'@data',
+        data:'=data',
       },
       templateUrl: 'app/player/charts/bar.tmpl.html'
     }
