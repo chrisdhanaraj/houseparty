@@ -1,7 +1,7 @@
 angular.module('player.championtendency', ['houseparty.common.champion'])
   .controller('ChampionTendencyCtrl', function(history, ChampionModel) {
     var subctrl = this;
-    var colorOptions = ['#F7464A', '#46BFBD', '#FDB45C', '#FF8100', '#FF6100', '#000'];
+    var colorOptions = ['#F7464A', '#46BFBD', '#FDB45C', '#FF8100', '#FF6100', '#000', '#7D0A0A', '#217D0A', '#160A7D'];
     var championIds = _.map(history.matches, function(match) {
       return match['participants'][0]['championId'];
     });
@@ -15,6 +15,8 @@ angular.module('player.championtendency', ['houseparty.common.champion'])
       var countChamps = _.countBy(names, function(name) {
         return name;
       });
+
+      subctrl.champs = countChamps;
 
       _.forEach(countChamps, function(count, champ) {
         data.push({

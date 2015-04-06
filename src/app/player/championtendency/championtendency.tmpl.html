@@ -1,1 +1,16 @@
-<pie class="pie" data="subctrl.data"></pie>
+<div class="graphs">
+
+  <pie class="pie graphs__data" data="subctrl.data"></pie>
+
+  <div class="list graphs__content">
+    <h3>Champion Tendencies</h3>
+    <ul>
+      <li ng-repeat="(id, val) in subctrl.champs">
+
+        {{ id }}
+        {{ val }}
+      </li>
+    </ul>
+  </div>
+
+</div>

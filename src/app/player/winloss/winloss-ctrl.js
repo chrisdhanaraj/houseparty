@@ -3,6 +3,9 @@ angular.module('player.winloss', [])
     var subctrl = this;
     var stats = solostats[getId][0]['entries'][0];
 
+    subctrl.wins = stats.wins;
+    subctrl.losses = stats.losses;
+
     subctrl.data = {
       labels: ["Wins", "Losses"],
       datasets: [

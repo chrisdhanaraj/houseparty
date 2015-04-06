@@ -9,7 +9,8 @@ angular.module('player', [
   'player.visiondata',
   'player.winloss',
   'player.d3',
-  'player.pie'
+  'player.pie',
+  'player.line'
 ])
   .controller('PlayerCtrl', function($stateParams, getId, solostats, history) {
     var ctrl = this;
