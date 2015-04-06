@@ -7,15 +7,28 @@ angular.module('player.stats10', [])
         xpDiffPerMinDeltas = [];
 
     var timelineArray = _.map(history.matches, function(match) {
+      console.log(match['participants'][0]['stats'].winner);
       return match['participants'][0]['timeline'];
     });
 
     console.log(timelineArray);
     _.forEach(timelineArray, function(match) {
-      csDiffPerMinDeltas.push(match.csDiffPerMinDeltas);
-      damageTakenDiffPerMinDeltas.push(match.damageTakenDiffPerMinDeltas);
-      xpDiffPerMinDeltas.push(match.xpDiffPerMinDeltas);
+      if (match.csDiffPerMinDeltas) {
+        csDiffPerMinDeltas.push(csDiffPerMinDeltas)
+      }
+
+      if (match.damageTakenDiffPerMinDeltas) {
+        damageTakenDiffPerMinDeltas.push(match.damageTakenDiffPerMinDeltas);
+      }
+
+      if (match.xpDiffPerMinDeltas) {
+        xpDiffPerMinDeltas.push(match.xpDiffPerMinDeltas);
+      }
     });
+
+    console.log('cs', csDiffPerMinDeltas.length);
+    console.log('dmg', damageTakenDiffPerMinDeltas.length);
+    console.log('xo', xpDiffPerMinDeltas.length)
 
     var avgCsDiff = {
       'zeroToTen' : (_.sum(csDiffPerMinDeltas, function(obj) { return obj.zeroToTen; }) * 10 / csDiffPerMinDeltas.length).toFixed(2),
@@ -53,16 +66,16 @@ angular.module('player.stats10', [])
           pointHighlightStroke: "rgba(220,220,220,1)",
           data: [0, avgCsDiff.zeroToTen, avgCsDiff.tenToTwenty, avgCsDiff.twentyToThirty, avgCsDiff.thirtyToEnd ]
         },
-        {
-          label: "Damage Taken Diff",
-          fillColor: "rgba(151,187,205,0.2)",
-          strokeColor: "rgba(151,187,205,1)",
-          pointColor: "rgba(151,187,205,1)",
-          pointStrokeColor: "#fff",
-          pointHighlightFill: "#fff",
-          pointHighlightStroke: "rgba(151,187,205,1)",
-          data: [0, avgDamageTradeDiff.zeroToTen, avgDamageTradeDiff.tenToTwenty, avgDamageTradeDiff.twentyToThirty, avgDamageTradeDiff.thirtyToEnd ]
-        },
+        //{
+        //  label: "Damage Taken Diff",
+        //  fillColor: "rgba(151,187,205,0.2)",
+        //  strokeColor: "rgba(151,187,205,1)",
+        //  pointColor: "rgba(151,187,205,1)",
+        //  pointStrokeColor: "#fff",
+        //  pointHighlightFill: "#fff",
+        //  pointHighlightStroke: "rgba(151,187,205,1)",
+        //  data: [0, avgDamageTradeDiff.zeroToTen, avgDamageTradeDiff.tenToTwenty, avgDamageTradeDiff.twentyToThirty, avgDamageTradeDiff.thirtyToEnd ]
+        //},
         {
           label: "XP Diff",
           fillColor: "rgba(120,220,220,0.2)",

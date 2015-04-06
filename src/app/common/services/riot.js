@@ -14,7 +14,7 @@ angular.module('houseparty.common.riot', [])
     }
 
     var getMatchHistoryUrl = function(id, number) {
-      return endpoints.matchhistory + id  + '?rankedQueues=RANKED_SOLO_5x5,RANKED_TEAM_5x5&endIndex=' + number + '&api_key=' + config.api;
+      return endpoints.matchhistory + id  + '?rankedQueues=RANKED_SOLO_5x5&endIndex=' + number + '&api_key=' + config.api;
     };
 
     var getLeagueUrl = function(id) {

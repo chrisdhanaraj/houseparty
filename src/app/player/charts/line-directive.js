@@ -17,7 +17,6 @@ angular.module('player.line', [])
 
     var controller = function($scope, $sce) {
       $scope.to_trusted = function(html_code) {
-        console.log(html_code);
         return $sce.trustAsHtml(html_code);
       }
     };

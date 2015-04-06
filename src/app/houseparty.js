@@ -36,7 +36,7 @@ angular.module('houseparty', [
             return Riot.getLeague(getId);
           },
           history: function(Riot, getId) {
-            return Riot.getMatchHistory(getId, 10);
+            return Riot.getMatchHistory(getId, 15);
           }
         }
 
