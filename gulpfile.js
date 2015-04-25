@@ -5,6 +5,11 @@ var $ = require('gulp-load-plugins')();
 var browserSync = require('browser-sync');
 var htmlInjector = require("bs-html-injector");
 var reload = browserSync.reload;
+var karma = require('karma').server;
+
+gulp.task('test', function(done) {
+
+});
 
 gulp.task('styles', function () {
   return gulp.src('src/assets/sass/style.scss')
@@ -61,4 +66,10 @@ gulp.task('serve', ['styles'], function() {
   gulp.watch('src/assets/sass/**/*.scss', ['styles']);
 });
 
-gulp.task('default', ['serve']);
+gulp.task('test', function(done) {
+  karma.start({
+    configFile: __dirname + '/karma.conf.js',
+  }, done);
+});
+
+gulp.task('default', ['tdd']);

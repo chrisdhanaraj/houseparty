@@ -1,0 +1,33 @@
+.mega {
+	font-size: 112px;
+	font-weight: 300;
+}
+
+.heading {
+  font-size: 26px;
+
+  &--bold {
+    font-weight: 700;
+  }
+
+  &--large {
+    font-size: 36px;
+    font-weight: 700;
+  }
+}
+
+.sub-heading {
+  font-size: 24px; 
+
+  &--bold {
+    font-weight: 700;
+  }
+}
+
+p {
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 700;
+}

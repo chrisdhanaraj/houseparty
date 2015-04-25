@@ -1,0 +1,1596 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bower",
+				"bower_components/"
+			],
+			[
+				"currentRow",
+				"currentRowNumber"
+			],
+			[
+				"gridEleme",
+				"gridElements"
+			],
+			[
+				"lastInd",
+				"_.lastIndexOf"
+			],
+			[
+				"ta",
+				"taxologist.webm"
+			],
+			[
+				"a",
+				"app.min.js"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"sta",
+				"standardGrid"
+			],
+			[
+				"g",
+				"gridItem.js"
+			],
+			[
+				"bundle",
+				"bundleLogger"
+			],
+			[
+				"dest",
+				"destFolder"
+			],
+			[
+				"brow",
+				"browserify"
+			],
+			[
+				"gu",
+				"gutil"
+			],
+			[
+				"getEle",
+				"getElementsByTagName"
+			],
+			[
+				"potential",
+				"potentialLast"
+			],
+			[
+				"poten",
+				"potentialLast"
+			],
+			[
+				"v",
+				"vendor/"
+			],
+			[
+				"browser",
+				"browserSync"
+			],
+			[
+				"vend",
+				"vendor.min.js"
+			],
+			[
+				"tax",
+				"taxqa.me.crt"
+			],
+			[
+				"the",
+				"the_query"
+			],
+			[
+				"tabsMen",
+				"tabsMenuElements"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"p",
+				"pressroom-main.php"
+			],
+			[
+				"prio",
+				"priorityGrid"
+			],
+			[
+				"priori",
+				"priorityGrid"
+			],
+			[
+				"Med",
+				"MediaElementPlayer"
+			],
+			[
+				"video",
+				"videoCollection"
+			],
+			[
+				"vido",
+				"videoCollection"
+			],
+			[
+				"paus",
+				"pauseListener"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"jquery",
+				"jquery.cycle2.min.js"
+			],
+			[
+				"vidoe",
+				"videosOnPage"
+			],
+			[
+				"videos",
+				"VideosOnPage"
+			],
+			[
+				"vid",
+				"videosOnPage"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"ir",
+				"iframeCollection"
+			],
+			[
+				"iframe",
+				"iframeCollection"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"backg",
+				"background-repeat"
+			],
+			[
+				"taxolo",
+				"taxologist-practice-aid.jpg	w:429 h:240"
+			],
+			[
+				"return",
+				"returnValue"
+			],
+			[
+				"insert",
+				"insertBeforeElem"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"twe",
+				"tweetBlocks"
+			],
+			[
+				"tweet",
+				"tweetBlocks"
+			],
+			[
+				"$twee",
+				"$tweetBlocks"
+			],
+			[
+				"tran",
+				"transformTest"
+			],
+			[
+				"trasn",
+				"transformTest"
+			],
+			[
+				"test",
+				"testLength"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"resize",
+				"resizeCol"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"num",
+				"numColumns"
+			],
+			[
+				"outer",
+				"outerWidth"
+			],
+			[
+				"col",
+				"colSize"
+			],
+			[
+				"pri",
+				"priorityGrid"
+			],
+			[
+				"grid",
+				"gridContainers"
+			],
+			[
+				"$se",
+				"$secondScroll"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"brand",
+				"brandArray"
+			],
+			[
+				"tw",
+				"tweet-list"
+			],
+			[
+				"intro",
+				"introTextB"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"$rou",
+				"$routeParams	AngularJS"
+			],
+			[
+				"sceD",
+				"$sceDelegateProvider	AngularJS"
+			],
+			[
+				"font",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/houseparty.js",
+			"settings":
+			{
+				"buffer_size": 2818,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/index.html",
+			"settings":
+			{
+				"buffer_size": 2400,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/assets/sass/components/_navbar.scss",
+			"settings":
+			{
+				"buffer_size": 78,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/assets/sass/common/_base.scss",
+			"settings":
+			{
+				"buffer_size": 77,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/main/main-controller.js",
+			"settings":
+			{
+				"buffer_size": 485,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/assets/sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 149,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/assets/sass/common/_reset.scss",
+			"settings":
+			{
+				"buffer_size": 1161,
+				"line_ending": "Unix",
+				"name": "/* http://meyerweb.com/eric/tools/css/reset/"
+			}
+		},
+		{
+			"file": "src/assets/sass/common/_typography.scss",
+			"settings":
+			{
+				"buffer_size": 257,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "packag",
+		"selected_items":
+		[
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"rebuil",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pretty ",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pretty json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"set java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"set angul",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"set json",
+				"Set Syntax: JSON"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"set js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"set rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"subl",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"set md",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"set bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"prety",
+				"HTMLPrettify"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"set javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"sublmi",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"sublmie",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"code ",
+				"Format Code"
+			],
+			[
+				"format",
+				"Format Code"
+			],
+			[
+				"set php",
+				"Set Syntax: PHP"
+			],
+			[
+				"form",
+				"Format Code"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"toggle lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimelinter",
+				"SublimeLinter: Clear Caches"
+			],
+			[
+				"suble",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"js hin",
+				"JSHint"
+			],
+			[
+				"jshin",
+				"JSHint"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"js",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"inren",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rien",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"set plain te",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"bea",
+				"HTMLBeautify"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"beaut",
+				"HTMLBeautify"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"seth",
+				"Set Syntax: HTML"
+			],
+			[
+				"set css",
+				"Set Syntax: CSS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				" set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ste html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"set htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"set ht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"w",
+				"WP: Manage Pages"
+			],
+			[
+				"wp:",
+				"WP: Manage Pages"
+			],
+			[
+				"wp",
+				"WP: Connect to Site"
+			],
+			[
+				"package ",
+				"Package Control: Add Repository"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"pretti",
+				"HTMLPrettify"
+			],
+			[
+				"projec",
+				"Project: Close"
+			],
+			[
+				"Pret",
+				"HTMLPrettify"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"set pl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"set text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"linte",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"set scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"set syn",
+				"Set Syntax: SCSS"
+			],
+			[
+				"packa add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"set h",
+				"Set Syntax: HTML"
+			],
+			[
+				"prettify",
+				"HTMLPrettify"
+			],
+			[
+				"inre",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"css",
+				"Run CSScomb JS"
+			],
+			[
+				"run ",
+				"Run CSScomb JS"
+			],
+			[
+				"ru",
+				"Run CSScomb JS"
+			],
+			[
+				"css ",
+				"Run CSScomb JS"
+			],
+			[
+				"submle",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 287.0,
+		"history":
+		[
+			"jshint",
+			"view.settings().get('syntax')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/chrisdhanaraj/Sites/houseparty",
+		"/Users/chrisdhanaraj/Sites/houseparty/src",
+		"/Users/chrisdhanaraj/Sites/houseparty/src/app",
+		"/Users/chrisdhanaraj/Sites/houseparty/src/app/main",
+		"/Users/chrisdhanaraj/Sites/houseparty/src/app/player",
+		"/Users/chrisdhanaraj/Sites/houseparty/src/assets",
+		"/Users/chrisdhanaraj/Sites/houseparty/src/assets/sass",
+		"/Users/chrisdhanaraj/Sites/houseparty/src/assets/sass/common",
+		"/Users/chrisdhanaraj/Sites/houseparty/src/assets/sass/components"
+	],
+	"file_history":
+	[
+		"/Users/chrisdhanaraj/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/chrisdhanaraj/Sites/houseparty/src/assets/sass/components/_dataoption.scss",
+		"/Users/chrisdhanaraj/Sites/houseparty/src/assets/sass/components/_graphs.scss",
+		"/Users/chrisdhanaraj/Sites/houseparty/src/assets/sass/components/_teamwell.scss",
+		"/Users/chrisdhanaraj/Sites/houseparty/src/assets/sass/common/_typography.scss",
+		"/Users/chrisdhanaraj/Sites/houseparty/src/assets/sass/common/_base.scss",
+		"/Users/chrisdhanaraj/Sites/houseparty/src/assets/sass/common/_variables.scss",
+		"/Users/chrisdhanaraj/Sites/houseparty/src/app/champion/champion-controller.js",
+		"/Users/chrisdhanaraj/Desktop/Tax-access2.log",
+		"/Users/chrisdhanaraj/Desktop/Tax-access.log",
+		"/Users/chrisdhanaraj/tax-overview/plugin/highlight/highlight.js",
+		"/Users/chrisdhanaraj/Downloads/skinny-header/js/index.js",
+		"/Users/chrisdhanaraj/Downloads/workshop/directive-binding-isolate/script.js",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/sass/style.scss",
+		"/Users/chrisdhanaraj/Downloads/react-0.12.2/README.md",
+		"/Users/chrisdhanaraj/Downloads/headerfooter/config.rb",
+		"/Volumes/htdocs-1/globalnext/thanks.html",
+		"/Volumes/htdocs-1/globalnext/index.html",
+		"/Volumes/htdocs/globalnext/index.html",
+		"/Volumes/htdocs-2/wp-content/themes/pagelines-template-theme/datatemplates/reportList.json",
+		"/Volumes/htdocs/wp-content/themes/pagelines-template-theme/datatemplates/reportList.json",
+		"/Users/chrisdhanaraj/blizzard/blizzard.js",
+		"/Users/chrisdhanaraj/Documents/IcoMoon - 1 Icons/demo.html",
+		"/Users/chrisdhanaraj/Documents/IcoMoon - 1 Icons/style.css",
+		"/Users/chrisdhanaraj/local/lib/node_modules/node-sass/bin/node-sass",
+		"/Users/chrisdhanaraj/.npm/node-sass/2.0.0-beta/package/package.json",
+		"/Users/chrisdhanaraj/Sites/flexy/Gruntfile.js",
+		"/Volumes/htdocs-2/sales-configurator/qa/index.html",
+		"/Volumes/htdocs-2/sales-configurator/index.html",
+		"/Volumes/htdocs-2/sales-configurator/qa/eng/index.html",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/plugins/tr-pressroom/tr-pressroom.php",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/plugins/tr-anz-functions/anzfunctions.php",
+		"/Volumes/htdocs-1/wp-config.php",
+		"/Volumes/htdocs/wp-config.php",
+		"/Users/chrisdhanaraj/Documents/formGen/helpers/user.js",
+		"/Users/chrisdhanaraj/Sites/videolibrary/scripts/main.js",
+		"/Volumes/htdocs/wp-content/themes/pagelines-template-theme/includes/scripts.php",
+		"/Volumes/htdocs-2/wp-content/themes/pagelines-template-theme/includes/scripts.php",
+		"/Users/chrisdhanaraj/Sites/videolibrary/index.html",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/js/source/conversion.js",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/sass/_video.scss",
+		"/Users/chrisdhanaraj/Sites/videolibrary/bower.json",
+		"/Users/chrisdhanaraj/Sites/tax/QA/taxologist-build/app/index.html",
+		"/Users/chrisdhanaraj/Sites/tax/QA/onepass/community_logged_out.html",
+		"/Users/chrisdhanaraj/Sites/tax/PROD/onepass/community_logged_out.html",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/package.json",
+		"/Volumes/htdocs-3/wp-content/themes/trta-regional/footer.php",
+		"/Volumes/htdocs-2/wp-content/themes/trta-regional/footer.php",
+		"/Volumes/htdocs-2/wp-content/themes/pagelines-template-theme/sections/footerTRTA/section.php",
+		"/Volumes/htdocs-1/wp-content/themes/trta-regional/footer.php",
+		"/Volumes/htdocs-1/wp-content/themes/pagelines-template-theme/sections/footerTRTA/section.php",
+		"/Users/chrisdhanaraj/Sites/tax/PROD/wp-content/themes/pagelines-template-theme/sections/footerTRTA/section.php",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/sections/footerTRTA/section.php",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/trta-regional/footer.php",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/footer.php",
+		"/Users/chrisdhanaraj/Sites/tax/PROD/wp-content/themes/pagelines-template-theme/includes/scripts.php",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/index.php",
+		"/Users/chrisdhanaraj/Sites/tax/PROD/wp-content/themes/pagelines-template-theme/js/source/analytics.js",
+		"/Users/chrisdhanaraj/Sites/tax/PROD/wp-content/themes/pagelines-template-theme/includes/styles.php",
+		"/Users/chrisdhanaraj/Sites/flexy/app/index.html",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/sass/_homepage.scss",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/Gruntfile.js",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/sass/_components.scss",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/sass/_flexy.scss",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/js/source/flexy.js",
+		"/Users/chrisdhanaraj/Sites/flexy/app/scripts/flexy.js",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/includes/styles.php",
+		"/Users/chrisdhanaraj/Sites/test-yo/Gruntfile.js",
+		"/Users/chrisdhanaraj/Sites/floatinglabels/style.scss",
+		"/Users/chrisdhanaraj/Sites/floatinglabels/index.html",
+		"/Users/chrisdhanaraj/Sites/floatinglabels/README.md",
+		"/Users/chrisdhanaraj/Sites/tax/QA/taxologist-build/app/thanks-researcher.html",
+		"/Users/chrisdhanaraj/Sites/taxologist/app/index.html",
+		"/Users/chrisdhanaraj/Sites/test-yo/package.json",
+		"/Users/chrisdhanaraj/Sites/taxologist/package.json",
+		"/Users/chrisdhanaraj/Sites/tax/QA/taxologist-build/app/index-new.html",
+		"/Users/chrisdhanaraj/Sites/tax/QA/taxologist-build/app/styles/main.scss",
+		"/Users/chrisdhanaraj/Sites/tax/QA/taxologist-build/app/styles/_researcher.scss",
+		"/Users/chrisdhanaraj/Sites/tax/QA/taxologist-build/app/scripts/floating.js",
+		"/Users/chrisdhanaraj/Sites/flexy/index.html",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/trta-regional/sass/style.scss",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/trta-regional/sass/components/_wrapper.scss",
+		"/Users/chrisdhanaraj/.bashrc",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/plugins/tr-uk-functions/shortcodes.php",
+		"/Users/chrisdhanaraj/.zshrc",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/includes/scripts.php",
+		"/Users/chrisdhanaraj/Sites/tax/QA/.htaccess",
+		"/Users/chrisdhanaraj/Sites/testword/wp-config.php",
+		"/private/etc/hosts",
+		"/Users/chrisdhanaraj/Sites/testword/.htaccess",
+		"/Users/chrisdhanaraj/Sites/.htaccess",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/sass/_headerfooter.scss",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/plugins/tr-global-functions/globalfunctions.php",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/plugins/tr-global-functions/globalfunctions.hp",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/plugins/tr-usa-functions/usafunctions.php",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/page.flexy.php",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/js/source/homepage.js",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/js/source/reports.js",
+		"/Users/chrisdhanaraj/Sites/flexy/bower.json",
+		"/Users/chrisdhanaraj/Sites/flexy/.jshintrc",
+		"/Users/chrisdhanaraj/Sites/flex-grid/js/grid/gridElement.js",
+		"/Users/chrisdhanaraj/Sites/flex-grid/js/grid/gridItem.js",
+		"/Users/chrisdhanaraj/Sites/flexy/app/scripts/main.js",
+		"/Users/chrisdhanaraj/Sites/tax/.tfignore",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-config",
+		"/Users/chrisdhanaraj/Sites/taxqa/Vagrantfile",
+		"/Users/chrisdhanaraj/Sites/taxqa/cookbooks/apache2/CONTRIBUTING.md",
+		"/Users/chrisdhanaraj/Sites/taxqa/cookbooks/apache2/recipes/mod_auth_cas.rb",
+		"/Users/chrisdhanaraj/Sites/taxqa/cookbooks/rbenv/attributes/default.rb",
+		"/Users/chrisdhanaraj/Sites/taxqa/cookbooks/rbenv/README.md",
+		"/Users/chrisdhanaraj/Sites/taxqa/cookbooks/ruby_build/README.md",
+		"/Users/chrisdhanaraj/Sites/taxqa/site-cookbooks/wpcli/recipes/default.rb",
+		"/Users/chrisdhanaraj/vagrantsetup/Vagrantfile",
+		"/Users/chrisdhanaraj/Sites/taxqa/www/wordpress/wp-config.php",
+		"/Users/chrisdhanaraj/Sites/jwplayer/app/scripts/conversion.js",
+		"/Users/chrisdhanaraj/Sites/tax/QA/taxologist-build/app/scripts/youtube.js",
+		"/Users/chrisdhanaraj/Sites/tax/QA/taxologist-build/app/styles/_awards.scss",
+		"/Users/chrisdhanaraj/Sites/tax/QA/taxologist-build/app/styles/_hawk.scss",
+		"/Users/chrisdhanaraj/Desktop/Live/Taxologist/index.html",
+		"/Users/chrisdhanaraj/Sites/jwplayer/app/scripts/main.js",
+		"/Users/chrisdhanaraj/Sites/abme/www/wordpress/wp-content/themes/abeautifulme/sass/templates/_page.scss",
+		"/Users/chrisdhanaraj/taxqa/Vagrantfile",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/js/source/forms/eloqua-autofill.js",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/js/source/forms/eloqua-autofillnew.js",
+		"/Users/chrisdhanaraj/Sites/tax/PROD/wp-content/themes/pagelines-template-theme/sass/_pressroom.scss",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/js/source/ga-html5-video.js",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/js/source/youtube.js",
+		"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/page.home.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+			"<open folders>",
+			"/Users/chrisdhanaraj/Sites/tax/qa/wp-content/",
+			"/Users/chrisdhanaraj/Sites/tax/qa/wp-content/themes/pagelines-template-theme",
+			"/Users/chrisdhanaraj/Sites/taxqa",
+			"/Users/chrisdhanaraj/vccw",
+			"/Users/chrisdhanaraj/taxqa",
+			"",
+			"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme/sass",
+			"/Users/chrisdhanaraj/Sites/abme/www/wordpress/wp-content/themes/abeautifulme",
+			"",
+			"/Users/chrisdhanaraj/Sites/tax/QA/wp-content/themes/pagelines-template-theme",
+			"/Users/chrisdhanaraj/Sites/abeautifulme/wp-content/themes/NativeChurch/css",
+			"/Users/chrisdhanaraj/Sites/abeautifulme",
+			"/Users/chrisdhanaraj/Sites/tax-main/QA/taxologist-build/app/scripts",
+			"/Users/chrisdhanaraj/Sites/tax-main/QA/wp-content/themes/pagelines-template-theme/sass",
+			"/Users/chrisdhanaraj/Sites/tax-main/QA/resources/snapshots",
+			"/Users/chrisdhanaraj/Sites/resources/app",
+			"/Users/chrisdhanaraj/Sites/archiveresources/app",
+			"/Users/chrisdhanaraj/tfs/QA/wp-content/themes/pagelines-template-theme/sass"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"col-xs-6",
+			"2014",
+			"Q4",
+			"\"GET /wp-content/private/pdf/specialreports/Checkpoint_UpdatedSpecialReport_TP3115.pdf HTTP/1.1\"",
+			"\"GET /wp-content/private/pdf/specialreports/Checkpoint_UpdatedSpecialReport_TP3115.pdf HTTP/1.1\" 	 404",
+			"\"GET /wp-content/private/pdf/specialreports/Checkpoint_UpdatedSpecialReport_TP3115.pdf HTTP/1.1\"",
+			"\"GET /wp-content/private/pdf/specialreports/Checkpoint_UpdatedSpecialReport_TP3115.pdf HTTP/1.1\" 	 404",
+			"\"GET /wp-content/private/pdf/specialreports/Checkpoint_UpdatedSpecialReport_TP3115.pdf HTTP/1.1\"",
+			"\"GET /wp-content/private/pdf/specialreports/Checkpoint_UpdatedSpecialReport_TP3115.pdf HTTP/1.1\" 	 404",
+			" 	 [",
+			"\"GET /wp-content/private/pdf/specialreports/Checkpoint_UpdatedSpecialReport_TP3115.pdf HTTP/1.1\" 	 404",
+			"404",
+			"Checkpoint_UpdatedSpecialReport_TP3115.pdf",
+			"private/pdf/specialreports/specialreports/Checkpoint_UpdatedSpecialReport_TP3115.pdf",
+			"/private/pdf/specialreports/specialreports/Checkpoint_UpdatedSpecialReport_TP3115.pdf",
+			"wp-content/private/pdf/specialreports/specialreports/Checkpoint_UpdatedSpecialReport_TP3115.pdf",
+			"https://tax.thomsonreuters.com/wp-content/private/pdf/specialreports/specialreports/Checkpoint_UpdatedSpecialReport_TP3115.pdf",
+			"https://tax.thomsonreuters.com/wp-content/private/specialreports/specialreports/",
+			"watch",
+			"customerGUID",
+			"CustomerGUID",
+			"route",
+			"centertheGrid",
+			"var centering",
+			"centerTheGrid",
+			"centerTheGrid()",
+			"centertheGrid",
+			"bottom",
+			"139",
+			"centerTheGrid",
+			"browserSy",
+			"watch",
+			"livereload",
+			"browserSync",
+			"csssplit",
+			"csssplit:target",
+			"csssplit:dest",
+			"twitter-anchor",
+			"twitter-share",
+			"researcherForm",
+			"researcher",
+			"data-toggle",
+			"line-height: 20px",
+			"/images/",
+			"moveItem",
+			"initLoad",
+			"moveItem",
+			"initLoad",
+			"/images/",
+			"wiredep",
+			"Government",
+			"max-width: 1200",
+			"max-width: 1230",
+			"assets",
+			"init()",
+			"moveItem",
+			"source srcset",
+			"noimg",
+			"/images/",
+			"555px",
+			"rowSize",
+			"min-width: 550px",
+			"/wp-content/images/home/grid/",
+			"/wp-content/",
+			"element",
+			"config.WIDTH",
+			"initGrid",
+			"config.height",
+			"config.width",
+			"$",
+			"console.log",
+			"min-width: 600px",
+			"mountain",
+			"div",
+			"lodash",
+			"Press Authors",
+			"&lt;",
+			"&gt;",
+			"&lt;",
+			"gated-event",
+			"ajax-page-content",
+			"WP_Query",
+			"git://",
+			"pending",
+			"indexOf",
+			"#awards",
+			"guide",
+			"player",
+			"vendor",
+			"elqDatalookup",
+			"push",
+			"setupElqForms",
+			"defaultLookup",
+			"querySelector",
+			"visitorEmail",
+			"custom",
+			"siteId",
+			"console.log",
+			"customLookup",
+			"window",
+			"console.log",
+			"this.sources",
+			"id",
+			"WP_DB",
+			"git://",
+			"@",
+			"browser",
+			"http://abme.dev",
+			"uglify",
+			"sass",
+			"autoprefixer",
+			"wiredep",
+			"bower",
+			"ul",
+			"4.3.8",
+			"vbox",
+			"guest additions",
+			"font-size-base",
+			"roboto",
+			"#",
+			"[.#]([^(;]*\\()",
+			"@include",
+			"@((?!media|include)[a-zA-Z_]*)",
+			"transparent",
+			"spin",
+			"[.#]([^(;]*\\()",
+			"(@include\\W+)[.#]([^(;]*\\()",
+			"@include(\\W+[.#][^(;]*;)"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"col-xs-12 col-sm-6",
+			"2015",
+			"Q1",
+			"\n[",
+			"csssplit",
+			"line-height: 22px",
+			"images/",
+			"vendor/assets",
+			"source media=\"(min-width: 0px)\" ",
+			"/wp-content/images/home/grid/",
+			"/wp-content/images/grid/home/",
+			"600px",
+			"min-width: 555px",
+			"/images/",
+			"/",
+			"createEmptyGrid",
+			"CONFIG.height",
+			"CONFIG.width",
+			"min-width: 556px",
+			"cat",
+			"city",
+			"village",
+			"flower",
+			"article",
+			"<",
+			">",
+			"<",
+			"https://",
+			"$",
+			"",
+			"$\\1",
+			"rgba(0, 0, 0, 0)",
+			"adjust-hue",
+			"\\1\\2",
+			"@extend\\1",
+			"$\\1",
+			"PROD",
+			"pagelines-template-theme",
+			"'",
+			"get_template_part( 'partials/content'",
+			"Q3",
+			"CORPORATIONS",
+			"anz_home",
+			"preload=\"none\"",
+			"createRow(rowSize)",
+			"pressroom",
+			"preload=\"none\"",
+			"style.css",
+			"<i class=\"fa fa-linkedin-square linkedin-video\"></i>",
+			"<a href='#' class=\"email-icon email-video\"><i class=\"fa fa-envelope-square\"></i></a>",
+			"<i class=\"fa fa-twitter-square twitter-video\"></i>",
+			"<i class=\"fa fa-facebook-square facebook-video\"></i>",
+			"tax.thomsonreuters.com/",
+			"~",
+			"Spell",
+			"http",
+			"https",
+			"source",
+			"sourceProvider",
+			"source",
+			"http",
+			"input ",
+			"\">",
+			"",
+			"select ",
+			"input ",
+			"",
+			">",
+			"",
+			"/Q2_2014_",
+			"Q2_2014_",
+			"Q2",
+			"span col-xs-6",
+			"span col-xs-12",
+			"span",
+			"",
+			">",
+			"input ",
+			">",
+			"",
+			"Q1",
+			"2014_Q1/Q1",
+			"avatar.png",
+			"",
+			".match(/\\d+/g)",
+			"style=\"background-image: url($1);\"",
+			"style=\"background-image: url($1)\";",
+			"$tweetlist",
+			"background-image",
+			"",
+			"url\\('$1'\\)",
+			"style=\"background: url($1) 100% 100% no-repeat\"",
+			"-normal",
+			"tp-forum.jpg",
+			"data-col",
+			"tweet_count='1' no_rotate='1'",
+			"5000",
+			"/wp-content/images/home/grid",
+			"",
+			"'",
+			"transform: rotate($1);",
+			"transition-property: $1;",
+			"transition-duration: $1;",
+			"transition-duration: $1",
+			"transition: $1;",
+			"transition: $1",
+			"border-radius: $1/$2;",
+			"border-radius: $1;",
+			"border-radius: $1",
+			"box-shadow: none;",
+			"opacity: $1",
+			"/data/videos/posters/",
+			"/videos/posters/",
+			"\"http://www.youtube",
+			"name",
+			"category"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/app/houseparty.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								390,
+								391
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 176.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								630,
+								630
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/assets/sass/components/_navbar.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 78,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/assets/sass/common/_base.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 77,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								77
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/app/main/main-controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/assets/sass/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/assets/sass/common/_reset.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1161,
+								1161
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/* http://meyerweb.com/eric/tools/css/reset/",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/assets/sass/common/_typography.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "houseparty.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/taxdocs.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 952.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 301.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

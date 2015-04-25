@@ -1,0 +1,17 @@
+.search-box {
+  text-align: center;
+
+  input {
+    font-size: 20px;
+    height: 60px;
+    min-width: 40%;
+    padding: 15px;
+    outline: none;
+  }
+
+  ::placeholder {
+    color: darken($grey, 25%);
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+  }
+}

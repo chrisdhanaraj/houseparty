@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  text-transform: uppercase;
+
+  &__items {
+    margin-left: -7.5px;
+
+    a {
+      padding-left: 7.5px;
+      padding-right: 7.5px;
+    }
+  }
+}
+
+.logo {
+  border-right: 1px solid $black;
+  margin-right: 30px;
+  padding-right: 30px;
+}

@@ -2,10 +2,6 @@
   <head>
     <title>House Party Scouter</title>
 
-    <script src="//use.typekit.net/jcq0bnk.js"></script>
-    <script>try{Typekit.load();}catch(e){}</script>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- endbuild -->
@@ -16,13 +12,15 @@
 
     <div class="container">
       <div class="navbar">
-        <p>House Party Scouter</p>
+        <div class="logo">
+          <p>HouseParty<strong>Scouter</strong></p>
+          <span class="vertical-bar"></span>
+        </div>
+        <div class="navbar__items">
+          <a ui-sref="main" href="#">Home</a>
+          <a ui-sref="teams" href="#">Teams</a>
+        </div>
       </div>
-
-      <div class="intro">
-        <h1>House Party 5v5 Scouter <sup>BETA</sup></h1>
-      </div>
-
       <div ui-view class="content"></div>
     </div>
   </body>
@@ -30,38 +28,19 @@
   <!-- build:js scripts/vendor.js -->
   <script src="vendor/lodash.js"></script>
   <script src="../node_modules/angular/angular.js"></script>
-  <script src="https://cdn.firebase.com/js/client/2.2.2/firebase.js"></script>
   <script src="../node_modules/angular-animate/angular-animate.js"></script>
   <script src="../node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="vendor/firebase.js"></script>
   <script src="../node_modules/angularfire/dist/angularfire.js"></script>
   <script src="../node_modules/angular-storage/dist/angular-storage.js"></script>
-  <script src="assets/components/Chart.js/chart.js"></script>
   <!-- endbuild -->
 
-  <script>
-//    Chart.defaults.global.responsive = true;
-  </script>
 
   <!-- build:js scripts/main.js -->
   <script src="app/houseparty.js"></script>
   <script src="app/common/common.js"></script>
-  <script src="app/common/models/player-model.js"></script>
-  <script src="app/common/models/team-model.js"></script>
-  <script src="app/common/models/champion-model.js"></script>
-  <script src="app/common/services/riot.js"></script>
+  <script src="app/common/models/players.js"></script>
   <script src="app/main/main-controller.js"></script>
-  <script src="app/main/main-directive.js"></script>
   <script src="app/player/player-controller.js"></script>
-  <script src="app/player/charts/d3-bar-directive.js"></script>
-  <script src="app/player/charts/pie-directive.js"></script>
-  <script src="app/player/charts/line-directive.js"></script>
-  <script src="app/player/championtendency/champtendency-ctrl.js"></script>
-  <script src="app/player/killstats/killstats-ctrl.js"></script>
-  <script src="app/player/rolediversity/rolediversity-ctrl.js"></script>
-  <script src="app/player/stats10/stats10-ctrl.js"></script>
-  <script src="app/player/visiondata/visiondata-ctrl.js"></script>
-  <script src="app/player/winloss/winloss-ctrl.js"></script>
-  <script src="app/game/game-controller.js"></script>
-  <script src="app/champion/champion-controller.js"></script>
   <!-- endbuild -->
 </html>

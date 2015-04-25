@@ -1,0 +1,39 @@
+.ladder {
+  padding-top: 20px;
+  max-width: 40%;
+  margin: 0 auto;
+
+  &__player {
+    display: flex;
+    padding: 10px 5px;
+    cursor: pointer;
+
+    &:hover, &:focus {
+      background-color: darken($grey, 10%);
+    }
+
+    &:active {
+      color: $grey;
+      background-color: $orange;
+    }
+
+    &__item {
+
+      &:nth-child(1){
+        width: 8%;
+      }
+      &:nth-child(2){
+        width: 37%;
+      }
+      &:nth-child(3){
+        width: 35%;
+      }
+      &:nth-child(4){
+        width: 15%;
+      }
+      &:nth-child(5){
+        width: 5%;
+      }
+    }
+  }
+}
