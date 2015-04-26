@@ -7,10 +7,6 @@ var htmlInjector = require("bs-html-injector");
 var reload = browserSync.reload;
 var karma = require('karma').server;
 
-gulp.task('test', function(done) {
-
-});
-
 gulp.task('styles', function () {
   return gulp.src('src/assets/sass/style.scss')
     .pipe($.sourcemaps.init())
