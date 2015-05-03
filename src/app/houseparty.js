@@ -33,6 +33,20 @@ angular.module('houseparty', [
         url: '/players/:id',
         templateUrl: 'app/player/player.tmpl.html',
         controller: 'PlayerCtrl',
-        controllerAs: 'ctrl'
+        controllerAs: 'ctrl',
+        resolve: {
+          stats: function($stateParams, PlayerModel) {
+            var id = $stateParams.id;
+            var ref = PlayerModel;
+
+            return ref.getPlayerStats(id);
+          },
+          history: function($stateParams, PlayerModel) {
+            var id = $stateParams.id;
+            var ref = PlayerModel;
+
+            return ref.getPlayerMatchHistory(id);
+          }
+        }
       });
   });

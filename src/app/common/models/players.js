@@ -69,6 +69,23 @@ angular.module('common.player', [])
       }
     };
 
+    var getPlayerStats = function(playerId) {
+      return $http.get(config.firebase + '/stats/' + playerId + '.json').then(function(results) {
+        return results.data;
+      });
+    };
+
+    var updatePlayerStats = function(playerId) {
+      return $http.get(createLeagueAPIRoute(playerId)).then(function(results) {
+        var data = results.data;
+        $http.put(config.firebase + '/players/' + playerId + '/lastModified.json', Date.now());
+        for (var i = 0; i < data.length; i++) {
+          $http.put(config.firebase + '/stats/' + playerId + '/' + i + '.json', data[i]);
+        }
+        return results.data;
+      })
+    };
+
     var getPlayerMatchHistory = function(playerId) {
       var req1 = $http.get(createLeagueHistoryRoute(playerId, 0, 15));
       var req2 = $http.get(createLeagueHistoryRoute(playerId, 16, 31));
@@ -105,7 +122,9 @@ angular.module('common.player', [])
     return {
       getPlayers : getPlayers,
       getPlayerId: getPlayerId,
+      getPlayerStats: getPlayerStats,
       getAllPlayerStats : getAllPlayerStats,
-      getPlayerMatchHistory : getPlayerMatchHistory
+      getPlayerMatchHistory : getPlayerMatchHistory,
+      updatePlayerStats : updatePlayerStats
     };
   });

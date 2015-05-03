@@ -4,6 +4,7 @@
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">
     <!-- endbuild -->
 
   </head>
@@ -32,9 +33,9 @@
   <script src="../node_modules/angular-ui-router/release/angular-ui-router.js"></script>
   <script src="vendor/firebase.js"></script>
   <script src="../node_modules/angularfire/dist/angularfire.js"></script>
-  <script src="../node_modules/angular-storage/dist/angular-storage.js"></script>
+  <script src="../node_modules/d3/d3.js"></script>
+  <script src="assets/components/d3-tip/index.js"></script>
   <!-- endbuild -->
-
 
   <!-- build:js scripts/main.js -->
   <script src="app/houseparty.js"></script>
@@ -42,5 +43,7 @@
   <script src="app/common/models/players.js"></script>
   <script src="app/main/main-controller.js"></script>
   <script src="app/player/player-controller.js"></script>
+  <script src="app/player/charts/winloss-directive.js"></script>
   <!-- endbuild -->
+
 </html>

@@ -1,12 +1,16 @@
-angular.module('player', [])
-  .controller('PlayerCtrl', function($stateParams, PlayerModel) {
+angular.module('player', [
+  'player.winloss'
+])
+  .controller('PlayerCtrl', function(stats, history) {
     var self = this;
 
-    var id = $stateParams.id;
-    var playerModel = PlayerModel;
+    var soloStats = stats[0];
 
-    playerModel.getPlayerMatchHistory(id).then(function(result) {
-      console.log(result);
-    });
+    self.soloWinsObj = {
+      'wins' : soloStats['entries'][0]['wins'],
+      'losses' : soloStats['entries'][0]['losses']
+    };
+
+    console.log(stats, history);
 
   });
