@@ -16,6 +16,12 @@ angular.module('common.player', [])
       return $http.get(config.firebase + '/players.json').then(extract);
     };
 
+    var getBasicPlayerData = function(id) {
+      return $http.get(config.firebase + '/players/' + id + '.json').then(function(result) {
+        return result.data;
+      })
+    };
+
     var getPlayerId = function(playerName) {
       return getPlayers().then(function(players){
         var id = _.result(_.find(players.data, function(player) {
@@ -122,6 +128,7 @@ angular.module('common.player', [])
     return {
       getPlayers : getPlayers,
       getPlayerId: getPlayerId,
+      getBasicPlayerData : getBasicPlayerData,
       getPlayerStats: getPlayerStats,
       getAllPlayerStats : getAllPlayerStats,
       getPlayerMatchHistory : getPlayerMatchHistory,

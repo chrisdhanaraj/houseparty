@@ -35,6 +35,12 @@ angular.module('houseparty', [
         controller: 'PlayerCtrl',
         controllerAs: 'ctrl',
         resolve: {
+          player: function($stateParams, PlayerModel) {
+            var id = $stateParams.id;
+            var ref = PlayerModel;
+
+            return ref.getBasicPlayerData(id);
+          },
           stats: function($stateParams, PlayerModel) {
             var id = $stateParams.id;
             var ref = PlayerModel;
