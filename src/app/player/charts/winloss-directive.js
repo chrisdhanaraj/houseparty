@@ -45,6 +45,8 @@ angular.module('player.winloss', [])
         .tickFormat(function(d, i) {
           return dataset[i].state;
         })
+        .tickSize([3])
+        .tickPadding([10])
         .orient('bottom');
 
       var yScale = d3.scale.linear()
@@ -66,7 +68,7 @@ angular.module('player.winloss', [])
           return xScale(d.number);
         })
         .attr('y', function(d) {
-          return h - yScale(d.number) + 5;
+          return h - yScale(d.number) + 2;
         })
         .attr('width', xScale.rangeBand())
         .attr('height', function(d) {
