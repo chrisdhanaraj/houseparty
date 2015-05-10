@@ -4,8 +4,6 @@ angular.module('player.winloss', [])
     var linker = function(scope, element, attrs) {
       var data = scope.data;
 
-
-
       var dataset = [
         {
           'state': 'Wins',
@@ -68,11 +66,11 @@ angular.module('player.winloss', [])
           return xScale(d.number);
         })
         .attr('y', function(d) {
-          return h - yScale(d.number) + 2;
+          return h - yScale(d.number);
         })
         .attr('width', xScale.rangeBand())
         .attr('height', function(d) {
-          return d.number;
+          return yScale(d.number);
         })
         .attr('fill', function(d, i) {
           return colorScale(i);
